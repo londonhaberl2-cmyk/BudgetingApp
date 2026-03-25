@@ -1,0 +1,57 @@
+
+  "name": "Budget",
+  "type": "object",
+  "properties": {
+    "monthly_income": {
+      "type": "number",
+      "description": "Total monthly income"
+    },
+    "housing": {
+      "type": "number",
+      "description": "Housing/rent expenses"
+    },
+    "utilities": {
+      "type": "number",
+      "description": "Utility bills"
+    },
+    "food": {
+      "type": "number",
+      "description": "Food and groceries"
+    },
+    "gas": {
+      "type": "number",
+      "description": "Gas expenses"
+    },
+    "car_insurance": {
+      "type": "number",
+      "description": "Car insurance"
+    },
+    "healthcare": {
+      "type": "number",
+      "description": "Healthcare expenses"
+    },
+    "entertainment": {
+      "type": "number",
+      "description": "Entertainment spending"
+    },
+    "savings": {
+      "type": "number",
+      "description": "Savings amount"
+    },
+    "charity": {
+      "type": "number",
+      "description": "Charity donations"
+    },
+    "savings_goal": {
+      "type": "number",
+      "description": "Monthly savings target"
+    },
+    "other_expenses": {
+      "type": "number",
+      "description": "Other miscellaneous expenses"
+    }
+  },
+  "required": [
+    "monthly_income"
+  ]
+}
